@@ -41,6 +41,5 @@
 
 .right img {
     width: 75%;
-
     transform: scaleX(-1);
 }

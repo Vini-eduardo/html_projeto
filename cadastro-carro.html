@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Carros</title>
+    <title>Cadastro Carro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/principal.css">
-    <link rel="stylesheet" href="css/form-cliente.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/navegacao.css">
 </head>
 
@@ -22,30 +22,32 @@
     <h1>CADASTRO DE CARRO</h1>
     <div class="container-formulario">
         <form action="">
-            <label for="marca">
+            <label>
                 Marca
                 <br>
-                <input type="text" name="input-marca-carro" placeholder="Insira a marca do carro" required>
+                <input type="text" name="input-marca-carro" placeholder="Informe a marca do carro" required>
             </label>
-            <label for="modelo">
+            <label>
                 Modelo
                 <br>
-                <input type="text" name="input-modelo-carro" placeholder="Insira o modelo do carro" required>
+                <input type="text" name="input-modelo-carro" placeholder="Informe o modelo do carro" required>
             </label>
-            <label for="ano de fabricação">
-                Ano de Fabricação
+            <label>
+                Ano
                 <br>
-                <input type="number" name="input-anofabricacao-carro" placeholder="Insira o ano de fabricação" required>
+                <input type="number" name="input-ano-carro" placeholder="Informe o ano do modelo" required>
             </label>
-            <label for="cor">
+            <label>
                 Cor
                 <br>
-                <input type="text" name="input-cor-carro" placeholder="Insira a cor principal do carro" required>
+                <input type="text" name="input-cor-carro" placeholder="Informe a cor do carro" required>
             </label>
 
-            <input type="button" value="CADASTRAR">
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+            
         </form>
     </div>
+    <script src="js/carro.js"></script>
 </body>
 
 </html>
